@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TETRIS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body onkeydown="move()" >
+<div class="container">
+    <canvas id="board"></canvas>
+    <div class="sidebar">
+        <div>
+            <h1>XẾP HÌNH ĐÊ </h1>
+            <p>ĐIỂM : <span id="score">0</span></p><br>
+            <img src="https://64.media.tumblr.com/23144ff7e965d496e9374cc2d7a1eb3f/tumblr_o36z9jYQjL1ssby0io1_540.gif" alt="girldance"
+            style="width: 200px; height: 300px;">
+
+        </div>
+        <button class="playbutton" id="play" >CHƠI ĐÊ NÀO</button>
+    </div>
+</div>
+<script src="canvas.js"></script>
+<script src="board.js"></script>
+<script src="mainbrick.js"></script>
+<script src="brick.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
